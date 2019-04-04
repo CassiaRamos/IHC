@@ -9,7 +9,6 @@
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -18,12 +17,36 @@ h6 {
 	font-weight: 800!important
 }
 
+#tit{
+	color: #000000
+}
+
+#inst{
+	font-family: Catamaran;
+	font-weight: 800;
+	color: #aa19bd;
+}
+
+#face{
+	font-family: Catamaran;
+	font-weight: 800;
+	color: #282bcf;
+}
+
+#zap{
+	font-family: Catamaran;
+	font-weight: 800;
+	color: #209b10;
+}
+
 .btn-xl {
 	text-transform: uppercase;
 	padding: 1.5rem 3rem;
 	font-size: .9rem;
 	font-weight: 700;
-	letter-spacing: .1rem
+	letter-spacing: .1rem;
+	color: #000000;
+	font-weight: 800;
 }
 
 .bg-black {
@@ -38,7 +61,6 @@ h6 {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
     background-color: rgb(255, 255, 255) ;
-    color: #000;
 }
 
 .navbar-custom .navbar-brand {
@@ -59,8 +81,8 @@ header.masthead {
 	overflow: hidden;
 	padding-top: calc(7rem + 72px);
 	padding-bottom: 7rem;
-	background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#b60404));
-	background: linear-gradient(0deg, #ff6a00 0, #b60404 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(#22ff2d), to(#0d5c11));
+	background: linear-gradient(0deg, #22ff2d 0, #0d5c11 100%);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: scroll;
@@ -84,8 +106,8 @@ header.masthead .bg-circle {
 	z-index: 0;
 	position: absolute;
 	border-radius: 100%;
-	background: -webkit-gradient(linear, left bottom, left top, from(#b60404), to(#ff6a00));
-	background: linear-gradient(0deg, #b60404 0, #ff6a00 100%)
+	background: -webkit-gradient(linear, left bottom, left top, from(#0d5c11), to(#22ff2d));
+	background: linear-gradient(0deg, #0d5c11 0, #22ff2d 100%)
 }
 
 header.masthead .bg-circle-1 {
@@ -130,24 +152,24 @@ header.masthead .bg-circle-4 {
 }
 
 .bg-primary {
-	background-color: #ee0979!important
+	background-color: #000000!important
 }
 
 .btn-primary {
-	background-color: #ee0979;
-	border-color: #ee0979
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-	background-color: #bd0760!important;
-	border-color: #bd0760!important
+	background-color: #000000!important;
+	border-color: #000000!important;
+	color: #ffffff;
 }
 
 .btn-primary:focus {
-	-webkit-box-shadow: 0 0 0 .2rem rgba(238, 9, 121, .5);
-	box-shadow: 0 0 0 .2rem rgba(238, 9, 121, .5)
+	background-color: #000000;
 }
 
 .btn-secondary {
@@ -165,4 +187,23 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
 	-webkit-box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5);
 	box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5)
+}
+
+label {
+    display: block;
+	font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+	margin: .4rem 0;
+	border-radius: 10%;
+}
+
+.note {
+    font-size: .8em;
+}
+
+#footer{
+	background-color: #22ff2d;
 }
