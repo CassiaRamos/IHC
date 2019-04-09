@@ -1,4 +1,5 @@
-Desenvolvedores: Mateus Ferreira Silva
+Desenvolvedores: Mateus Ferreira Silva 
+
                  Rita de Cassia Ramos Sobrinho
                 
 Disciplina: Interação Humano-Computador
@@ -10,7 +11,9 @@ Tema do trabalho: Tempo.
 Tópico: Saúde.
 
 Requisitos (casos de uso): 1 - Usuário deve informar o tempo gasto na web. 
+
                            2 - Sistema deve calcular o percentual do tempo diário gasto na web. 
+                           
                            3 - Sistema deve exibir para o usuário dicas de como aproveitar o tempo de forma mais saudável. 
                            
 Dependências: browser Google Chrome ou Firefox instalado.
