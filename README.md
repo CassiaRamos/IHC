@@ -15,6 +15,6 @@ Requisitos (casos de uso): 1 - Usuário deve informar o tempo gasto na web.
                            2 - Sistema deve calcular o percentual do tempo diário gasto na web.                            
                            3 - Sistema deve exibir para o usuário dicas de como aproveitar o tempo de forma mais saudável. 
                            
-Dependências: browser Google Chrome ou Firefox instalado.
+Dependências: browser Google Chrome ou Firefox instalado. Abrir o arquivo index.html no browser.
 
 Licenciamento: OpenSource.
