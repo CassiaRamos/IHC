@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Page Wonder - Start Bootstrap Template</title>
+    <title>MeetTime</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +76,6 @@
               <h2 id = inst class="display-4">Instagran</h2>
               <p> 
                   <label for="appt">Informe o tempo gasto por dia no Instagran:</label>
-
                 <input type="time" id="appt" name="appt"
                        min="0:00" max="24:00" required>
                  <span class="note">informe o valor entre 0:00 a 24:00</span>
@@ -98,7 +97,7 @@
           </div>
           <div class="col-lg-6">
             <div class="p-5">
-              <h2 id = zap class="display-4">Whatsapp</h2>
+              <h2 id = "zap" class="display-4">Whatsapp</h2>
               <p> 
                   <label for="appt">Informe o tempo gasto por dia no Whatsapp:</label>
 
@@ -122,11 +121,12 @@
           </div>
           <div class="col-lg-6 order-lg-1">
             <div class="p-5">
-              <h2 id = face class="display-4">Facebook</h2>
+              <h2 id = "face" class="display-4">Facebook</h2>
               <p>
                   <label for="appt">Informe o tempo gasto por dia no Facebook:</label>
 
                 <input type="time" id="appt" name="appt"
+
                        min="0:00" max="24:00" required>
                  <span class="note">informe o valor entre 0:00 a 24:00</span>
               </p>
@@ -136,8 +136,11 @@
       </div>
     </section>
 
+
+
+
     <div class = center>
-        <button type="button" name="" value="" class="css3button">Calcular</button> 
+        <button type="button" id="btnconfir" name="" value="" class="css3button" onclick="myFunction()">Calcular</button> 
     </div>
 
     <!-- Footer -->
@@ -151,6 +154,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js\mainJs.js"></script>
 
   </body>
 
