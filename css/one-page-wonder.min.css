@@ -21,6 +21,10 @@ h6 {
 	color: #000000
 }
 
+.img-fluid{
+	width: 250px;
+}
+
 #inst{
 	font-family: Catamaran;
 	font-weight: 800;
