@@ -43,6 +43,26 @@ h6 {
 	color: #209b10;
 }
 
+#youtube{
+	font-family: Catamaran;
+	font-weight: 800;
+	color: #9e1b11;
+}
+
+#twitter{
+	font-family: Catamaran;
+	font-weight: 800;
+	color: #4b95e9;
+}
+
+#ou{
+	margin-left: 250px;
+}
+
+#outras{
+	margin-left: 100px;
+}
+
 .btn-xl {
 	text-transform: uppercase;
 	padding: 1.5rem 3rem;

@@ -27,7 +27,7 @@ function myFunction() {
  var tempoFB = timeStringToFloat(document.getElementById("fbTime").value) ;
  
 
-if(valida_campo("wApp") & valida_campo("insTime") & valida_campo("fbTime")){
+if(tempoFB >=0 && tempoInst >= 0 && tempoZap >=0){
 
 
     var soma=tempoZap+tempoInst+tempoFB;
@@ -44,11 +44,10 @@ if(valida_campo("wApp") & valida_campo("insTime") & valida_campo("fbTime")){
 
     }
 
-
+}
 
  e.preventDefault();
 
-}
 }
 
 
