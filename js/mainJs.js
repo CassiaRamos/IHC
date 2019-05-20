@@ -25,12 +25,16 @@ function myFunction() {
  var tempoZap = timeStringToFloat(document.getElementById("wApp").value) ;
  var tempoInst = timeStringToFloat(document.getElementById("insTime").value) ;
  var tempoFB = timeStringToFloat(document.getElementById("fbTime").value) ;
- 
+ var tempoTW = timeStringToFloat(document.getElementById("twTime").value) ;
+ var tempoYT = timeStringToFloat(document.getElementById("youTime").value) ;
+ var tempoOutras = timeStringToFloat(document.getElementById("outras").value) ;
+ var idade = timeStringToFloat(document.getElementById("idade").value) ;
 
-if(tempoFB >=0 && tempoInst >= 0 && tempoZap >=0){
+if(tempoFB >=0 && tempoInst >= 0 && tempoZap >=0 && tempoTW >=0 && tempoYT >=0 && tempoOutras >=0 && idade >=0){
 
 
-    var soma=tempoZap+tempoInst+tempoFB;
+    var soma=tempoZap+tempoInst+tempoFB+tempoTW+tempoYT+tempoOutras;
+    console.log(soma);
     if(soma>24){
         alert("Não é possivel dias com mais de 24 horas");
     }else if(soma<3){
@@ -43,11 +47,17 @@ if(tempoFB >=0 && tempoInst >= 0 && tempoZap >=0){
         window.location.href = "muito-dependente.html";
 
     }
-
+} else {
+    alert("Certifique-se de preencher todos os campos corretamente.");
 }
-
- e.preventDefault();
-
+}
+function soma() {
+    /* Cria input e adiciona o valor da variável */
+  let input = document.createElement("input");
+  input.value = soma;
+  
+  /* Inclui o input no elemento body */
+  document.body.appendChild( input )
 }
 
 

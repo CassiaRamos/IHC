@@ -18,7 +18,7 @@ h6 {
 }
 
 #tit{
-	color: #000000
+	color: #ffffff;
 }
 
 .img-fluid{
@@ -56,11 +56,15 @@ h6 {
 }
 
 #ou{
-	margin-left: 250px;
+	margin-left: 400px;
 }
 
 #outras{
 	margin-left: 100px;
+}
+
+#idade{
+	margin-left: 150px;
 }
 
 .btn-xl {
@@ -84,7 +88,7 @@ h6 {
 .navbar-custom {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-    background-color: rgb(255, 255, 255) ;
+    background-color: #0d5c11;
 }
 
 .navbar-custom .navbar-brand {
