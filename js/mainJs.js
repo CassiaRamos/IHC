@@ -51,14 +51,6 @@ if(tempoFB >=0 && tempoInst >= 0 && tempoZap >=0 && tempoTW >=0 && tempoYT >=0 &
     alert("Certifique-se de preencher todos os campos corretamente.");
 }
 }
-function soma() {
-    /* Cria input e adiciona o valor da variável */
-  let input = document.createElement("input");
-  input.value = soma;
-  
-  /* Inclui o input no elemento body */
-  document.body.appendChild( input )
-}
 
 
 function timeStringToFloat(time) {
