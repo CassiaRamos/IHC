@@ -1,5 +1,5 @@
 const campo = ["wApp", "insTime", "fbTime", "twTime", "youTime", "outras", "inputIdade"];
-const campoLabel = ["What'up", "Instagram", "Face Book", "Twitter", "You tube", "Outras rede Socias", "Tempo redes socias"];
+const campoLabel = ["Whatsapp", "Instagram", "Facebook", "Twitter", "Youtube", "Outras rede Socias", "Tempo redes socias"];
 
 function valida_campo() {
 
